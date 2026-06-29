@@ -1,7 +1,7 @@
 # Sentience Music Memory
 
 A one-off script that reads your **liked songs from YouTube Music** and saves
-them as a single **memory in [Sentience](https://api.sentience.com)**, a
+them as a single **memory in [Sentience](https://sentience.company)**, a
 snapshot of your music taste that your Sentience can remember.
 
 Runs locally on your own machine with your own accounts. Nothing is shared
@@ -16,7 +16,7 @@ with anyone else.
 ## 1. Get the code and add your Sentience key
 
 ```bash
-git clone <this-repo> && cd sentience-music-memory
+git clone https://github.com/mnky9800n/sentience-ytmusic.git && cd sentience-music-memory
 ```
 
 Create a `.env` file with your Sentience key:
@@ -74,6 +74,10 @@ No codes to type, no "press Enter", pick your Google identity and it is done.
   using your client id/secret, so keep those available on later runs.
 
 ## What it leaves behind (all gitignored)
+
+## requirements
+   - requests>=2.34.2
+   - ytmusicapi>=1.12.1
 
 - `oauth.json` — your refreshing OAuth token, reused on later runs.
 - `oauth_client.json` — your client id/secret, only if entered interactively.

@@ -1,0 +1,12 @@
+
+# python stuff
+__pycache__/
+
+# account data created at runtime
+liked_songs.json
+
+oauth.json
+oauth_client.json
+
+# secrets
+.env

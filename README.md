@@ -75,11 +75,11 @@ No codes to type, no "press Enter", pick your Google identity and it is done.
 
 ## What it leaves behind (all gitignored)
 
-## requirements
-   - requests>=2.34.2
-   - ytmusicapi>=1.12.1
-
 - `oauth.json` — your refreshing OAuth token, reused on later runs.
 - `oauth_client.json` — your client id/secret, only if entered interactively.
 - `liked_songs.json` — a local backup of the raw fetched tracks.
 - `.env` — your secrets.
+
+## requirements
+   - requests>=2.34.2
+   - ytmusicapi>=1.12.1
